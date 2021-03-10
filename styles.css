@@ -1,0 +1,46 @@
+ /* GENERAL SETUP  */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    background-color: tan;
+}
+
+/* LOGO */
+
+#ronLogo {
+     position: absolute;
+     top: 30%;
+     left: 30%;
+     transform: translate(-30%, -30%);
+     height: 400px;
+     
+ } 
+ /*  QUOTE  */
+
+.quoteContainer {
+    width: 60vw;
+    text-align: center;
+    position: absolute;
+    transform: translate(-30%, -30%);
+    top: 30%;
+    left: 30%;
+    margin: 0px;
+ }
+
+ @font-face {
+     font-family: pinewood;
+     src: url('./assets/PINEWOOD.TTF');
+ }
+
+ @font-face {
+     font-family: billionDreams;
+     src: url('./assets/billionDreams_PERSONAL.ttf');
+ }
